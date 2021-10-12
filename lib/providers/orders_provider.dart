@@ -1,12 +1,8 @@
 import 'package:dio/dio.dart';
 
-const orderItemsUrl =
-    "http://practicerestfulapis-env.eba-u5uyntpp.us-east-1.elasticbeanstalk.com/users";
-const loginUser = "";
 const orderItemUrl =
-    "http://practicerestfulapis-env.eba-u5uyntpp.us-east-1.elasticbeanstalk.com/orderItems/placeOrderItems/";
-const orderUrl =
-    "http://practicerestfulapis-env.eba-u5uyntpp.us-east-1.elasticbeanstalk.com/orders/placeOrder/";
+    "https://practice-restful-apis.vercel.app/orderItems/placeOrderItems/";
+const orderUrl = "https://practice-restful-apis.vercel.app/orders/placeOrder/";
 
 class Order {
   var response;
